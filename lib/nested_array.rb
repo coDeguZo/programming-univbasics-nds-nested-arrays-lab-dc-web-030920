@@ -33,10 +33,8 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix = [
-    column,
-    [row]
-    ]
+  matrix = []
+  matrix << column[row]
   matrix
 end
 
