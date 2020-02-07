@@ -34,7 +34,7 @@ end
 
 def matrix_lookup(matrix, row, column)
   matrix = []
-  matrix << column[row]
+  matrix << column = row
   matrix
 end
 
